@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: "Inter", sans-serif;
+
+    background:linear-gradient(180deg,#1b1b1b,#090909);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:380px;
+
+    text-align:center;
+
+    padding:40px 25px;
+
+}
+
+.profile-photo{
+
+    width:136px;
+    height:136px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:2px solid rgba(255,255,255,.10);
+
+}
+
+h1{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    font-size:18px;
+
+    opacity:.9;
+
+}
+
+.description{
+
+    margin-top:18px;
+
+    font-size:14px;
+
+    color:#d6d6d6;
+
+    line-height:1.6;
+
+}.links{
+
+    margin-top:30px;
+
+}
+
+.link-button {
+
+    display: block;
+
+    width: 100%;
+
+    text-decoration: none;
+
+    background: white;
+
+    color: #111;
+
+    padding: 16px 20px;
+
+    margin-bottom: 18px;
+
+    border-radius: 16px;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease,
+        background-color .18s ease;
+
+}
+
+.link-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 16px 35px rgba(0,0,0,.35);
+
+    background:#fafafa;
+
+}.link-button:active{
+
+    transform:scale(.98);
+
+    box-shadow:0 6px 18px rgba(0,0,0,.20);
+
+}
+
+.socials{
+
+    margin-top:30px;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.socials a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    opacity:.8;
+
+    transition:.25s;
+
+}
+
+.socials a:hover{
+
+    opacity:1;
+
+}.link-button{
+
+    align-items:center;
+    gap:14px;
+
+}
+
+.link-button i{
+
+    width:22px;
+    font-size:18px;
+    text-align:center;
+
+}/* =========================================================
+   BRAND ICON COLORS
+   ========================================================= */
+
+/* Kitap */
+.fa-book,
+.fa-book-open{
+    color:#1E3A8A;
+}
+
+/* YouTube */
+.fa-youtube{
+    color:#FF0000;
+    font-size:20px;
+}
+
+/* Instagram */
+.fa-instagram{
+
+    font-size:20px;
+
+    background: radial-gradient(circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+/* TikTok */
+.fa-tiktok{
+    color:#FFFFFF;
+    font-size:20px;
+    text-shadow:
+        -1px -1px 0 #25F4EE,
+         1px  1px 0 #FE2C55;
+}
+
+/* WhatsApp */
+.fa-whatsapp{
+    color:#25D366;
+    font-size:20px;
+}
+
+/* Web */
+.fa-globe{
+    color:#0EA5E9;
+}
+.profile-photo{
+
+    box-shadow:0 0 0 4px rgba(255,255,255,.08);
+
+}
