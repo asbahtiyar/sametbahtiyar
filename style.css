@@ -216,3 +216,10 @@ h1{
     box-shadow:0 0 0 4px rgba(255,255,255,.08);
 
 }
+.graduation-icon {
+    background: linear-gradient(135deg, #f59e0b, #ef4444, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
