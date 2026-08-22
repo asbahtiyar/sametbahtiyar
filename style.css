@@ -172,15 +172,6 @@ h1{
    BRAND ICON COLORS
    ========================================================= */
 
-/* Kitap */
-.books-icon i {
-    background: linear-gradient(135deg, #5b4b8a, #8b819d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent !important;
-}
-
 /* YouTube */
 .fa-youtube{
     color:#FF0000;
@@ -219,10 +210,39 @@ h1{
     box-shadow:0 0 0 4px rgba(255,255,255,.08);
 
 }
+/* =========================================================
+   PREMIUM ICON COLORS
+   ========================================================= */
+
+/* KİTAP — Premium Lacivert / Mavi */
+.books-icon i {
+    background: linear-gradient(
+        135deg,
+        #172554 0%,
+        #1e3a8a 45%,
+        #3b82f6 100%
+    ) !important;
+
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+}
+
+
+/* KOÇLUK — Premium Mor / Gri */
 .coaching-icon i {
-    background: linear-gradient(135deg, #5b4b8a, #8b819d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: linear-gradient(
+        135deg,
+        #4c3a68 0%,
+        #6b5b82 45%,
+        #9b92a6 100%
+    ) !important;
+
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+
+    -webkit-text-fill-color: transparent !important;
     color: transparent !important;
 }
