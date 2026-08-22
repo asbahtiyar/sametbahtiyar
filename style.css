@@ -173,12 +173,12 @@ h1{
    ========================================================= */
 
 /* Kitap */
-.books-icon {
-    background: linear-gradient(135deg, #3158c8, #5b4bb7, #7c6ed6);
+.books-icon i {
+    background: linear-gradient(135deg, #5b4b8a, #8b819d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: transparent;
+    color: transparent !important;
 }
 
 /* YouTube */
