@@ -173,8 +173,8 @@ h1{
    ========================================================= */
 
 /* Kitap */
-.book-icon {
-    background: linear-gradient(135deg, #1e3a8a, #2563eb, #60a5fa);
+.books-icon {
+    background: linear-gradient(135deg, #3158c8, #5b4bb7, #7c6ed6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -219,8 +219,8 @@ h1{
     box-shadow:0 0 0 4px rgba(255,255,255,.08);
 
 }
-.graduation-icon {
-    background: linear-gradient(135deg, #4B4458, #6B6378, #8A8395);
+.coaching-icon {
+    background: linear-gradient(135deg, #5f4b8b, #8273a8, #b09ac5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
