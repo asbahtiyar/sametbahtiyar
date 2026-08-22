@@ -214,35 +214,33 @@ h1{
    PREMIUM ICON COLORS
    ========================================================= */
 
-/* Kitaplar */
-.books-icon i {
+/* KİTAPLAR — Premium Lacivert / Mavi */
+.fa-book {
     background: linear-gradient(
         135deg,
         #172554 0%,
-        #1e3a8a 45%,
+        #1e3a8a 50%,
         #3b82f6 100%
     ) !important;
 
     -webkit-background-clip: text !important;
     background-clip: text !important;
-
     -webkit-text-fill-color: transparent !important;
     color: transparent !important;
 }
 
 
-/* Özel Ders & Koçluk */
-.coaching-icon i {
+/* ÖZEL DERS & KOÇLUK — Premium Mor / Gri */
+.fa-graduation-cap {
     background: linear-gradient(
         135deg,
         #4c3a68 0%,
-        #6b5b82 45%,
+        #6b5b82 50%,
         #9b92a6 100%
     ) !important;
 
     -webkit-background-clip: text !important;
     background-clip: text !important;
-
     -webkit-text-fill-color: transparent !important;
     color: transparent !important;
 }
