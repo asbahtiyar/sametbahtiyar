@@ -219,10 +219,10 @@ h1{
     box-shadow:0 0 0 4px rgba(255,255,255,.08);
 
 }
-.coaching-icon {
-    background: linear-gradient(135deg, #5f4b8b, #8273a8, #b09ac5);
+.coaching-icon i {
+    background: linear-gradient(135deg, #5b4b8a, #8b819d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: transparent;
+    color: transparent !important;
 }
